@@ -1,0 +1,442 @@
+/**
+ * YOUR MASTER PLAN: Programming + IT Learning (Semester + Winter Break)
+ * 
+ * REALISTIC. FOCUSED. PRACTICAL.
+ * 
+ * Two parallel tracks that converge during winter break.
+ */
+
+// ============================================
+// THE CORE PRINCIPLE
+// ============================================
+
+RIGHT NOW (Semester - 5 weeks):
+- Programming: Stay sharp, support your classes
+- IT Research: Build knowledge base (broad, conceptual)
+- Goal: Pass classes, understand fundamentals
+
+WINTER BREAK (4 weeks):
+- Programming: Build real projects
+- IT: Apply knowledge in homelab
+- Goal: Portfolio pieces, hands-on experience
+
+
+// ============================================
+// WEEKLY SCHEDULE (During Semester)
+// ============================================
+
+MONDAY (20-30 min) - Java Practice
+├─ Do one problem from DailyArrayPractice.java
+├─ Test it thoroughly
+└─ This keeps your fundamentals sharp
+
+WEDNESDAY (20-30 min) - JavaScript Translation
+├─ Take Monday's Java solution
+├─ Rewrite it in JavaScript
+├─ See the parallels between languages
+└─ This directly helps your web dev class
+
+FRIDAY (30-45 min) - Bridge Project Work
+├─ Build ONE feature that uses both
+├─ Could be for class assignment or personal
+├─ Example: Add search to a class project (uses array filtering)
+└─ This shows you where skills connect
+
+TUESDAY (30 min) - IT Research (Concepts)
+├─ Read/watch about ONE topic
+├─ Take notes in your own words
+├─ Don't worry about hands-on yet
+└─ Topics below
+
+THURSDAY (30 min) - IT Research (Application)
+├─ Learn how Tuesday's topic is used in real world
+├─ Watch tutorials or read case studies
+├─ Think: "How would this help my projects?"
+└─ Build mental models
+
+WEEKEND:
+├─ Class homework (priority!)
+├─ Catch up on anything you missed
+└─ If extra time: tinker with Linux VM (optional, low pressure)
+
+
+// ============================================
+// SEMESTER FOCUS (Next 5 Weeks)
+// ============================================
+
+═══════════════════════════════════════
+PROGRAMMING TRACK (M/W/F)
+═══════════════════════════════════════
+
+WEEK 1:
+Mon: Day 1-2 problems (second largest, palindrome)
+Wed: Translate both to JavaScript
+Fri: Add these as functions to a class project if applicable
+
+WEEK 2:
+Mon: Day 3-4 problems (rotate array, merge sorted)
+Wed: Translate both to JavaScript
+Fri: Mini project: Array visualizer webpage
+     → Input arrays, show them visually, apply operations
+
+WEEK 3:
+Mon: Day 5-6 problems (remove duplicates, two sum)
+Wed: Translate both to JavaScript
+Fri: Add search/filter feature to any class project
+     → Use the array methods you've been practicing
+
+WEEK 4:
+Mon: Day 7-8 problems (consecutive sequence, move zeros)
+Wed: Translate both to JavaScript
+Fri: Work on Bridge Project 1: Grade Calculator
+     → Perfect timing for end of semester!
+
+WEEK 5 (Finals Week):
+Mon: Day 9-10 problems (missing number, stock profit)
+Wed: Translate if you have time
+Fri: Focus on finals, skip if needed
+
+BY END OF SEMESTER YOU'LL HAVE:
+✓ 10+ algorithm problems solved in Java
+✓ Same solutions in JavaScript
+✓ Direct proof that skills transfer between languages
+✓ Several practical applications in web projects
+✓ Strong foundation for winter break projects
+
+
+═══════════════════════════════════════
+IT RESEARCH TRACK (T/Th)
+═══════════════════════════════════════
+
+Focus: UNDERSTAND, don't memorize. Build mental models.
+
+WEEK 1: Operating Systems Basics
+Tue: What is an OS? Linux vs Windows vs MacOS
+     → History, architecture, why Linux for servers
+Thu: File systems and permissions
+     → How computers organize files, users, security basics
+
+WEEK 2: Networking Fundamentals  
+Tue: How the internet works (IP, DNS, HTTP)
+     → What happens when you type a URL
+Thu: Client-server model
+     → How web apps communicate, APIs, requests/responses
+
+WEEK 3: Servers and Web Hosting
+Tue: What is a server? Types of servers (web, database, etc.)
+     → Physical vs virtual, cloud vs on-premise
+Thu: How websites are hosted
+     → Domain names, web servers (nginx/Apache), deployment
+
+WEEK 4: Databases and Storage
+Tue: Relational databases (SQL basics)
+     → What they are, why they exist, common patterns
+Thu: Data persistence
+     → How apps save data, backups, data integrity
+
+WEEK 5: DevOps Concepts
+Tue: Containers and Docker (conceptual)
+     → What problem they solve, how they work
+Thu: Automation and CI/CD
+     → Why automate, deployment pipelines, DevOps culture
+
+BY END OF SEMESTER YOU'LL UNDERSTAND:
+✓ How computers and servers work
+✓ How the internet and web hosting work
+✓ How data is stored and managed
+✓ Modern development practices (DevOps)
+✓ Vocabulary and concepts for homelab
+
+
+// ============================================
+// WINTER BREAK PLAN (4 Weeks)
+// ============================================
+
+NOW you apply everything you've learned.
+
+═══════════════════════════════════════
+WEEK 1: Setup & First Deployment
+═══════════════════════════════════════
+
+GOAL: Get homelab running, deploy first project
+
+Days 1-2: Hardware & Linux
+├─ Set up old laptop OR VM with Ubuntu Server
+├─ Learn basic commands (you researched this!)
+├─ Configure network, install essentials
+└─ Get comfortable with terminal
+
+Days 3-4: First Web Server
+├─ Install nginx
+├─ Deploy a simple HTML page
+├─ Configure your first web server
+└─ Access it from another device
+
+Days 5-7: Deploy Java Project
+├─ Install Java on server
+├─ Move one of your Java programs to server
+├─ Create a simple REST API wrapper
+└─ Access via web browser
+
+DELIVERABLE: Your code running on your own server
+
+
+═══════════════════════════════════════
+WEEK 2: Bridge Project - Grade Calculator
+═══════════════════════════════════════
+
+GOAL: Full-stack app from scratch to deployment
+
+Days 1-3: Build Application
+├─ Backend: Java/Node.js with your grade calculation logic
+├─ Frontend: Clean HTML/CSS/JS interface
+├─ Database: Store grade history (SQLite or PostgreSQL)
+└─ Test locally
+
+Days 4-5: Deploy to Homelab
+├─ Move app to your server
+├─ Configure database
+├─ Set up proper URL/domain
+└─ Make it accessible
+
+Days 6-7: Polish & Document
+├─ Add features (charts, grade predictions)
+├─ Write README explaining architecture
+├─ Take screenshots for portfolio
+└─ Add to GitHub
+
+DELIVERABLE: Production-ready app on your infrastructure
+
+
+═══════════════════════════════════════
+WEEK 3: Docker & Services
+═══════════════════════════════════════
+
+GOAL: Containerize projects, run multiple services
+
+Days 1-3: Learn Docker Hands-On
+├─ Install Docker
+├─ Run pre-made containers (nginx, PostgreSQL)
+├─ Write your first Dockerfile
+└─ Containerize your grade calculator
+
+Days 4-5: Multi-Service Setup
+├─ Use docker-compose
+├─ Run frontend + backend + database in containers
+├─ Learn networking between containers
+└─ Set up reverse proxy
+
+Days 6-7: Second Project
+├─ Build a new bridge project (Todo list? Dashboard?)
+├─ Design it to run in Docker from the start
+├─ Deploy alongside grade calculator
+└─ Manage multiple services
+
+DELIVERABLE: Multi-service Docker setup
+
+
+═══════════════════════════════════════
+WEEK 4: Dashboard & Automation
+═══════════════════════════════════════
+
+GOAL: Build your "homelab dashboard" capstone
+
+Days 1-4: Build Dashboard
+├─ Shows: running services, system stats, logs
+├─ Frontend: React/Vue or vanilla JS
+├─ Backend: API to query system info
+├─ Use all your programming skills
+
+Days 5-6: Automation Scripts
+├─ Backup automation
+├─ Service health checks
+├─ Deployment scripts
+└─ Document everything
+
+Day 7: Portfolio & Resume Update
+├─ Write up all projects with details
+├─ Add to resume
+├─ Update LinkedIn
+├─ Prepare to talk about it in interviews
+
+DELIVERABLE: Complete homelab with portfolio-ready projects
+
+
+// ============================================
+// RESOURCES (Curated, Not Overwhelming)
+// ============================================
+
+PROGRAMMING:
+├─ Your DailyArrayPractice.java file ← Start here
+├─ MDN Web Docs (for JavaScript)
+├─ freeCodeCamp (for web dev practice)
+└─ LeetCode Easy (when you're ready)
+
+IT CONCEPTS:
+├─ NetworkChuck (YouTube - entertaining, informative)
+├─ TechWorld with Nana (YouTube - clear tutorials)
+├─ "How Linux Works" by Brian Ward (book - deeper reading)
+└─ Professor Messer (for structured learning)
+
+WHEN YOU START HOMELAB:
+├─ r/homelab wiki (great starter guides)
+├─ LinuxJourney.com (interactive Linux learning)
+├─ Docker documentation "Get Started"
+└─ DigitalOcean tutorials (excellent quality)
+
+RULE: Use 2-3 resources MAX per topic. Don't collect tutorials.
+
+
+// ============================================
+// PROJECT PROGRESSION (Bridge Projects)
+// ============================================
+
+Projects to build in order (connects everything):
+
+1. GRADE CALCULATOR ← Perfect for end of semester
+   Java/JS: Calculate GPA, averages, predictions
+   Web: Form inputs, results display
+   Homelab: Deploy to your server (winter)
+
+2. TODO LIST WITH SMART FEATURES
+   Java/JS: Filter, sort, search algorithms
+   Web: Interactive UI, state management
+   Homelab: Add database, containerize
+
+3. PERSONAL DASHBOARD
+   Java/JS: System info, log parsing, stats
+   Web: Real-time updates, charts
+   Homelab: Monitor your services
+
+Each project uses MORE of what you know.
+Each project is portfolio-worthy.
+
+
+// ============================================
+// TRACKING PROGRESS
+// ============================================
+
+Keep a simple log (text file is fine):
+
+WEEK 1:
+[✓] Mon: Solved second largest problem
+[✓] Tue: Learned about Linux file systems
+[✓] Wed: Translated to JavaScript
+[ ] Thu: Read about networking
+[✓] Fri: Added search to class project
+
+This shows progress and helps you stay consistent.
+
+
+// ============================================
+// THE MINDSET
+// ============================================
+
+SEMESTER (Now - 5 weeks):
+├─ "I'm building foundations"
+├─ Stay consistent, not perfect
+├─ Class homework comes first
+├─ Programming practice stays sharp
+└─ IT knowledge accumulates quietly
+
+WINTER BREAK (4 weeks):
+├─ "I'm applying everything"
+├─ Go deeper, build real things
+├─ Connect all the dots
+├─ Create portfolio pieces
+└─ Have fun with it!
+
+SPRING SEMESTER (Future):
+├─ You'll be ahead in classes
+├─ You'll have real projects to show
+├─ You'll understand full-stack + infrastructure
+└─ Internship applications will be strong
+
+
+// ============================================
+// KEY PRINCIPLES
+// ============================================
+
+1. CONSISTENCY > INTENSITY
+   Better: 30 min daily for 5 weeks
+   Worse: 5 hours once per week
+
+2. APPLICATION > THEORY
+   Don't just learn - BUILD something with it
+   Every concept should lead to a project
+
+3. BREADTH NOW, DEPTH LATER
+   Semester: Learn concepts broadly
+   Winter: Deep dive on specific skills
+
+4. DOCUMENT EVERYTHING
+   Write READMEs, take notes, screenshot projects
+   Future you will thank present you
+
+5. ONE THING AT A TIME
+   If class is busy, skip Friday's practice
+   If IT concept is unclear, watch another video
+   Adjust without guilt
+
+
+// ============================================
+// SUCCESS METRICS
+// ============================================
+
+BY END OF SEMESTER:
+□ Solved 10+ Java algorithm problems
+□ Can translate Java logic to JavaScript
+□ Completed 1-2 bridge projects
+□ Understand core IT concepts (OS, networking, servers, databases)
+□ Ready to start homelab
+
+BY END OF WINTER BREAK:
+□ Working homelab with 2-3 deployed projects
+□ Comfortable with Linux command line
+□ Can use Docker for deployments
+□ 1 major portfolio project (dashboard)
+□ Resume/LinkedIn updated with real projects
+□ Can talk confidently about your infrastructure
+
+This is realistic and achievable.
+
+
+// ============================================
+// WHAT TO DO RIGHT NOW
+// ============================================
+
+TODAY:
+1. Review your DailyArrayPractice.java file
+2. Solve Day 1: secondLargest
+3. Test it with different arrays
+4. Done. That's your start.
+
+THIS WEEK:
+Mon: Day 1 problem
+Tue: Watch NetworkChuck video on "What is Linux?"
+Wed: Translate Day 1 to JavaScript
+Thu: Read about how the internet works
+Fri: Add a sorting feature to any class project
+
+JUST START.
+The momentum builds from there.
+
+
+// ============================================
+// FINAL THOUGHTS
+// ============================================
+
+You have:
+✓ Clear daily structure (M/W/F code, T/Th research)
+✓ Focused programming track (Java → JS + bridges)
+✓ Conceptual IT learning (no pressure to practice yet)
+✓ Winter break plan (apply everything hands-on)
+✓ Portfolio trajectory (real deployed projects)
+
+This is the path.
+Simple. Achievable. Career-building.
+
+You don't need to do everything.
+You need to do THIS, consistently.
+
+Let's go.
