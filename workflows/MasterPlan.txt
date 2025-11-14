@@ -70,6 +70,10 @@ PROGRAMMING TRACK (M/W/F)
 
 WEEK 1:
 Mon: Day 1-2 problems (second largest, palindrome)
+     
+     *NOTES: Went mostly well, just need to account for MORE
+             possible cases, start using ZEROES acronym!
+
 Wed: Translate both to JavaScript
 Fri: Add these as functions to a class project if applicable
 

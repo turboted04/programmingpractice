@@ -1,0 +1,24 @@
+WEEK 1: HashMap & HashSet
+
+- Mon-Wed: Learn HashMap (Two Sum, Group Anagrams, Top K Frequent)
+- Thu-Fri: HashSet (Contains Duplicate, Intersection of Arrays)
+- Sat-Sun: Mixed practice (5-7 problems total)
+
+WEEK 2: Stacks & Queues
+
+- Mon-Wed: Stacks (Valid Parentheses, Min Stack, Daily Temperatures)
+- Thu-Fri: Queues (Implement Queue using Stacks, Recent Counter)
+- Sat-Sun: Mixed practice (5-7 problems total)
+
+WEEK 3: Trees
+
+- Mon-Tue: Binary Tree basics (Invert Tree, Max Depth)
+- Wed-Thu: BST (Validate BST, Lowest Common Ancestor)
+- Fri: Tree traversals (Inorder, Preorder, Postorder)
+- Sat-Sun: Mixed practice (5-7 problems total)
+
+WEEK 4: LinkedLists + Review
+
+- Mon-Tue: LinkedList (Reverse List, Detect Cycle, Merge)
+- Wed-Thu: Review weak areas
+- Fri-Sun: Mock interviews, mixed medium problems

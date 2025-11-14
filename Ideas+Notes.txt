@@ -1,0 +1,4 @@
+- Try HackerRank before LeetCode?
+- Apply ZEROES acronym when designing test cases
+- const vs let?
+- hosting examples in HTML (other than with Live Server extension)
