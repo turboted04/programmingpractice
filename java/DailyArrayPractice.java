@@ -52,8 +52,17 @@ public class DailyArrayPractice {
      * Example: [1, 2, 3, 4] → false
      */
     public static boolean isPalindrome(int[] arr) {
-        // YOUR CODE HERE
-        return false;
+        if (arr.length < 2) { // REVISION: length 1 and 0 technically ARE palindromes
+            //return false;
+            return true;
+        }
+
+        for (int i = 0; i < arr.length / 2 /*efficient*/; i++) { // revision: more efficient to cut search in half!
+            if (arr[i] != arr[arr.length - i - 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /**
@@ -208,7 +217,14 @@ public class DailyArrayPractice {
         System.out.println(secondLargest(new int[]{42}));                // Should be -1
 
         System.out.println("\n=== DAY 2: Palindrome ===");
-        // YOUR TESTS HERE
+        System.out.println(isPalindrome(new int[]{1, 2, 3, 2, 1})); //true
+        System.out.println(isPalindrome(new int[]{1, 2, 3, 4}));//false
+        System.out.println(isPalindrome(new int[]{1, 1}));//true
+        System.out.println(isPalindrome(new int[]{9, 8, 7, 7, 8, 9}));//true
+        System.out.println(isPalindrome(new int[]{1, 1, 2, 1, 1}));//true
+        System.out.println(isPalindrome(new int[]{1, 2, 3, 4, 2, 1}));//false
+        System.out.println(isPalindrome(new int[]{1})); //true
+        System.out.println(isPalindrome(new int[]{})); // true
 
         System.out.println("\n=== DAY 3: Rotate Array ===");
         // YOUR TESTS HERE
