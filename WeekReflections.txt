@@ -1,0 +1,7 @@
+Week 1:
+    Pretty solid and comfortable, JS translation felt new but interesting. Still a little confused
+    on how to type with JS without crossing into TS territory.
+    Also, haven't done the HTML demos yet, but can do them with Week 2's since it's not too hefty.
+    This is fun! Can't believe I'm finally here. How awesome.
+
+Week 2: 
