@@ -70,8 +70,18 @@ public class DailyArrayPractice {
      * [4, 5, 1, 2, 3] Hint: What happens if k > arr.length?
      */
     public static int[] rotateRight(int[] arr, int k) {
-        // YOUR CODE HERE
-        return arr;
+        // revision: handle all k because |k| < length won't change, |k| > length will
+        // and no need to handle negatives, they just get treated as "going left"
+        k = k % arr.length;
+        // can be done without this extra array, but that sounds out of my skill range right now
+        int[] newArr = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            //revision: instead of (i + k) which looks right, do (i-k) to look left and
+            //add length to counteract negative
+            newArr[i] = arr[(((i - k) + arr.length) % arr.length)];
+        }
+        return newArr;
     }
 
     /**
@@ -202,8 +212,6 @@ public class DailyArrayPractice {
 
     // ============= TESTING AREA =============
     public static void main(String[] args) {
-        // Test your methods here!
-        // Example:
         System.out.println("=== DAY 1: Second Largest ===");
         int[] test1 = {3, 7, 1, 9, 2};
         System.out.println("Expected: 7, Got: " + secondLargest(test1));
@@ -227,6 +235,10 @@ public class DailyArrayPractice {
         System.out.println(isPalindrome(new int[]{})); // true
 
         System.out.println("\n=== DAY 3: Rotate Array ===");
-        // YOUR TESTS HERE
+        int[] test1arr = rotateRight(new int[]{1, 2, 3, 4, 5}, 2); // 4, 5, 1, 2, 3
+        for (int i = 0; i < test1arr.length; i++) {
+            System.out.print(test1arr[i] + " ");
+        }
+        System.out.println();
     }
 }
