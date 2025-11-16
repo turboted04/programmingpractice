@@ -23,6 +23,15 @@ function secondMax(array) {
     return secondMax;
 }
 
+// 2. Palindrome
+function isPalindrome(array) {
+    // don't even need to check for >2 because 1/0 technically palindrome
+    for (i = 0; i < array.length / 2; i++) { // halved search again for efficiency
+        if (array[i] !== array[array.length - i - 1]) return false;
+    }
+    return true;
+}
+
 
 
 function testFn() {
@@ -36,6 +45,18 @@ function testFn() {
     console.log(secondMax([-10, -5, -3, -1])); // can just pass array inline (i.e without declaring), same thing as Java stmt above it, expected -3
     console.log(secondMax([42])); // expected -1
     /*----------------------------------------------*/
+
+    /*-------------Day 2: Palindrome----------------*/
+    console.log(isPalindrome([1, 2, 3, 2, 1])); //true
+    console.log(isPalindrome([1, 2, 3, 4]));//false
+    console.log(isPalindrome([1, 1, 1, 1]));//true
+    console.log(isPalindrome([1]));//true
+    console.log(isPalindrome([]));//true
+    console.log(isPalindrome([-1, 2, 3, 3, 2, -1]));//true
+    console.log(isPalindrome([1, 2, 3, 4, 5, 3, 2, 1]));//false
+    /*----------------------------------------------*/
+
 }
+
 
 testFn();

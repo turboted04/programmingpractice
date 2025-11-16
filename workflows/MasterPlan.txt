@@ -75,10 +75,17 @@ Mon: Day 1-2 problems (second largest, palindrome)
              possible cases, start using ZEROES acronym!
 
 Wed: Translate both to JavaScript
+
+     *NOTES: Pretty easy overall, just weird "for" loop logic,
+             just need to understand const/let and lock in on
+             callback logic.
 Fri: Add these as functions to a class project if applicable
 
 WEEK 2:
 Mon: Day 3-4 problems (rotate array, merge sorted)
+     *NOTES: Rotate was tricky to visualize in my head, but
+             I pretty much had the exact right idea, just 
+             needed assistence with the bound errors
 Wed: Translate both to JavaScript
 Fri: Mini project: Array visualizer webpage
      → Input arrays, show them visually, apply operations
