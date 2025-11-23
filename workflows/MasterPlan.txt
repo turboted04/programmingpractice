@@ -86,6 +86,10 @@ Mon: Day 3-4 problems (rotate array, merge sorted)
      *NOTES: Rotate was tricky to visualize in my head, but
              I pretty much had the exact right idea, just 
              needed assistence with the bound errors
+     *NOTES: Merge Sorted was my most satisfying one yet,
+             especially since I had a lot more intuition
+             than I was expecting. My first "interview-
+             type" problem.
 Wed: Translate both to JavaScript
 Fri: Mini project: Array visualizer webpage
      → Input arrays, show them visually, apply operations

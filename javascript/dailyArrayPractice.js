@@ -32,6 +32,44 @@ function isPalindrome(array) {
     return true;
 }
 
+// 3. Rotate Array
+
+
+// 4. Merge Sorted
+function mergeSorted(array1, array2) {
+    let mergedArr = [];
+    let i = 0;
+    let j = 0;
+
+    while (i < array1.length && j < array2.length) {
+        if (array1[i] < array2[j]) {
+            mergedArr.push(array1[i]);
+            i++;
+        }
+        else if (array1[i] > array2[j]) {
+            mergedArr.push(array2[j]);
+            j++;
+        }
+        else if (array1[i] === array2[j]) {
+            mergedArr.push(array1[i]);
+            mergedArr.push(array2[j]);
+            i++;
+            j++;
+        }
+    }
+
+    while (i < array1.length) {
+        mergedArr.push(array1[i]);
+        i++;
+    }
+
+    while (j < array2.length) {
+        mergedArr.push(array2[j]);
+        j++;
+    }
+    return mergedArr;
+}
+
 
 
 function testFn() {
@@ -55,6 +93,12 @@ function testFn() {
     console.log(isPalindrome([-1, 2, 3, 3, 2, -1]));//true
     console.log(isPalindrome([1, 2, 3, 4, 5, 3, 2, 1]));//false
     /*----------------------------------------------*/
+
+
+
+    /*--------------Day 4: MergeSorted---------------*/
+    console.log(mergeSorted([1, 3, 5], [2, 4]));
+    console.log(mergeSorted([1, 2, 2, 2, 3, 4, 5, 6], [2, 2, 3, 7, 9, 10000000]));
 
 }
 
